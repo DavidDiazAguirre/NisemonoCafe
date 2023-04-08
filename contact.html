@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisemono Cafe Ordering</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container text-left" background="cute pic.jpg">
+    <h1 class="text-center">Welcome to the Nisemono Cafe Menu, a very real menu!</h1>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Cafe Home</a> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Place an Order</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="index.html">Drinks & Cakes</a>
+                        <a class="dropdown-item" href="coursemenu.html">Entrees</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    
+    <br>
+    
+    <div class="table-warning"> <!--Similar to the tables on the menu pages but an ordering form-->
+        <h2>Place your order in the form below!</h2>
+        <p>Please allow up to 15 minutes for your order to materialize.</p>
+
+        <div class="mb-3">
+            <label class="form-label">Spawning Coordinates</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XX, YY) No refunds for spawning inside of objects/people.">
+            <br>
+            <label class="form-label">Order Items/Desired Modifications</label>
+            <textarea class="form-control" id="orderForm" rows="3"></textarea> <br>
+            <input type="submit" class="btn btn-info" id="orderButton" value="Submit Order">
+          </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

@@ -7,12 +7,12 @@
     <title>Nisemono Cafe</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body class="container text-left" background="cute pic.jpg"> <!--The body sets Bootstrap's responsive container for resizing, lefts the text, and sets a background pic-->
-    <h1 class="text-center">Welcome to the Nisemono Cafe Menu, a very real menu!</h1>
+<body class="container" background="cute pic.jpg">
+    <h1>Welcome to the Nisemono Cafe Menu, a very real menu!</h1>
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!--Navbar made from help with the videos. Uses the dark theme, and uses the sm breakpoint for resizing to hamburger buttons-->
-        <a class="navbar-brand" href="index.html">Cafe Home</a>  <!--Sets a brand button that links to the top page of the Menu-->
-        <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--Div to hold the palce an order nav item and the menu dropdown-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Cafe Home</a> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Place an Order</a>
@@ -32,10 +32,10 @@
     
     <br>
 
-    <div class="table-warning"> <!--using the warning color because it's a nice yellow. I think they implemented RGB in Bootstrap v5 but this is 4.4.1-->
-        <h2>Drinks and Cakes</h2>
+    <div class="table-warning">
+        <h2>Entrees</h2>
 
-        <table class="table table-hover"> <!--adds the hover pseudoclass to the table, and we use the rows and columns scopes from bootstrap to make a nice table-->
+        <table class="table table-hover">
             <thead>
                 <tr>
                     <th scope="col">#</th>
@@ -46,47 +46,34 @@
             <tbody>
                 <tr>
                     <th scope="row">1</th>
-                    <td>Nise-Mocha</td>
-                    <td>$2.50</td>
+                    <td>Omurice</td>
+                    <td>$6.50</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
-                    <td>Nise-Chai</td>
-                    <td>$3</td>
+                    <td>Waku-Waku Sausage</td>
+                    <td>$7</td>
                 </tr>
                 <tr>
                     <th scope="row">3</th>
-                    <td>Nise-Americano</td>
-                    <td>$2</td>
+                    <td>Curry Rice</td>
+                    <td>$6.50</td>
                 </tr>
                 <tr>
                     <th scope="row">4</th>
-                    <td>Nise-Espresso</td>
-                    <td>$3.50</td>
+                    <td>Karaage</td>
+                    <td>$8</td>
                 </tr>
                 <tr>
                     <th scope="row">5</th>
-                    <td>Tiramisu</td>
-                    <td>$4</td>
-                </tr>
-                <tr>
-                    <th scope="row">6</th>
-                    <td>Carrot Cake</td>
-                    <td>$4</td>
-                </tr>
-                <tr>
-                    <th scope="row">7</th>
-                    <td>Choco Flan</td>
-                    <td>$5</td>
-                </tr>
-                <tr>
-                    <th scope="row">8</th>
-                    <td>Pink Cake</td>
-                    <td>$6</td>
+                    <td>Oyakodon</td>
+                    <td>$10</td>
                 </tr>
             </tbody>
         </table>
     </div>
+
+
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
