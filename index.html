@@ -10,8 +10,12 @@
 <body class="container text-left" background="cute pic.jpg"> <!--The body sets Bootstrap's responsive container for resizing, lefts the text, and sets a background pic-->
     <h1 class="text-center">Welcome to the Nisemono Cafe Menu, a very real menu!</h1>
     
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!--Navbar made from help with the videos. Uses the dark theme, and uses the sm breakpoint for resizing to hamburger buttons-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> <!--Navbar made from help with the videos. Uses the dark theme, and uses the sm breakpoint for resizing-->
         <a class="navbar-brand" href="index.html">Cafe Home</a>  <!--Sets a brand button that links to the top page of the Menu-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <!--Makes the navbar list items collapse into a burger button when small-->
+         <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--Div to hold the palce an order nav item and the menu dropdown-->
             <ul class="navbar-nav">
                 <li class="nav-item active">
